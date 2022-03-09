@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul.nav li {
+  list-style: none;
+  display: inline;
+  float: right;
+  padding: 10px;
+  padding-top: 35px;
+  margin: 5px;
+  color: #f3f3f3;
+}
+
+.logo {
+  padding: 10px;
+}
+
+header {
+  background: #222222;
+}
+
+.conteiner {
+  display: flex;
+  padding: 30px;
+}
+
+.delivery {
+  background: url(../img/Delivery.svg);
+  width: 490px;
+  height: 350px;
+  text-align: center;
+}
+
+.delivery span {
+  color: #f3f3f3;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.delivery p {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fc200c;
+}
+
+.cardapio {
+  display: flex;
+  padding: 30px;
+  width: 500px;
+
+}
+
+.cardapio p {
+  color: #fc200c;
+  font-size: 24px;
+  
+}
